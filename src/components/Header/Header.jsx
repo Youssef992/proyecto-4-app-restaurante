@@ -14,6 +14,7 @@ const Header = () => {
                                     width="80"
                                     height="50"
                                     className="d-inline-block align-top"
+                                    alt="Img 1"
                                 />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
