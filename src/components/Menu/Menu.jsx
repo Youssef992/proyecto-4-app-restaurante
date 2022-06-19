@@ -5,8 +5,6 @@ import { db } from "../../firebase.js";
 import { onSnapshot, query, collection, orderBy, addDoc, doc, deleteDoc, setDoc } from "firebase/firestore";
 import { useEffect } from "react";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import {StarRating} from 'react-bootstrap-star-rating'
 const Menu = () => {
     const [todos, setTodos] = useState([]);
 

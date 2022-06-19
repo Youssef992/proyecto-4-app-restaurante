@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Navbar, Nav, Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 import logo from '../Home/images/kirby-cafe_qrr1.jpg'
 import Header from "../Header/Header";
 
