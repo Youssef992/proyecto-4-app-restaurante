@@ -5,6 +5,10 @@ import Carrousel1 from './images/cafe.jpg'
 import Carrousel2 from './images/Chapata.jpg'
 import Carrousel3 from './images/cheesecake.jpg'
 import Carrousel4 from './images/panque.jpg'
+import AboutUs from '../About Us/AboutUs'
+import Menu from '../Menu/Menu'
+import Reservaciones from '../Reservaciones/Reservaciones'
+import Footer from '../Footer/Footer'
 const Home = () => {
     return (
         <>
@@ -54,6 +58,10 @@ const Home = () => {
                     </Carousel>
                 </Col>
             </Row>
+            <AboutUs/>
+            <Menu />
+            <Reservaciones />
+            <Footer />
         </>
     )
 }

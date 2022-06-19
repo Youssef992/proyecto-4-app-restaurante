@@ -18,10 +18,10 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='aboutus' element={<AboutUs />} />
-        <Route path='menu' element={<Menu />} />
-        <Route path='reservaciones' element={<Reservaciones />} />
-        <Route path='contacto' element={<Contacto />} />
+        <Route path='#aboutus' element={<AboutUs />} />
+        <Route path='#menu' element={<Menu />} />
+        <Route path='#reservaciones' element={<Reservaciones />} />
+        <Route path='#contacto' element={<Contacto />} />
 
       </Routes>
     </BrowserRouter>

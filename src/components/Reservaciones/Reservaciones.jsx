@@ -2,12 +2,10 @@ import React from "react";
 import { Card, Form, Button, Row, Col } from 'react-bootstrap';
 import book from '../Home/images/kigby_booking.jpg'
 import book2 from '../Home/images/kigby_booking_2.jpg'
-import Header from "../Header/Header";
 
 const Reservaciones = () => {
 
     return (<>
-        <Header />
         <Row style={{ margin: '100px' }}>
             <Col sm={12}><Card.Title style={{fontSize:'50px', textAlign:'center',paddingBottom:'50px'}}>Reservaciones</Card.Title></Col>
             <Col sm={3}>

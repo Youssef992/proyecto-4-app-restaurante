@@ -6,7 +6,6 @@ import Header from "../Header/Header";
 const AboutUs = () => {
 
     return (<>
-       <Header/>
         <Row>
             <Col sm={7}> <Card.Img variant="top" src={logo} style={{ width: '600px', height: '500px' }} /></Col>
             <Col sm={4}>

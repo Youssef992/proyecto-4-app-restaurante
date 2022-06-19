@@ -23,18 +23,15 @@ const Header = () => {
                                     <Nav.Link as={Link} to="/">
                                         Home
                                     </Nav.Link>
-                                    <Nav.Link href='/aboutus' >
+                                    <Nav.Link href='#aboutus' id="#aboutus">
                                         Nostros
                                     </Nav.Link>
-                                    <Nav.Link href='/menu'>
+                                    <Nav.Link href='#menu' id="#menu">
                                         Menú
                                     </Nav.Link>
-                                    <Nav.Link href='/reservaciones'>
+                                    <Nav.Link href='#reservaciones' id="#reservaciones">
                                         Reservaciones
-                                    </Nav.Link>
-                                    <Nav.Link href='/contacto'>
-                                        Contáctame
-                                    </Nav.Link>
+                                    </Nav.Link> 
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>

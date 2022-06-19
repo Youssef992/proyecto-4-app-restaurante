@@ -4,7 +4,6 @@ import { useState } from "react";
 import { db } from "../../firebase.js";
 import { onSnapshot, collection } from "firebase/firestore";
 import { useEffect } from "react";
-import Header from "../Header/Header";
 const Menu = () => {
     const [todos, setTodos] = useState([]);
 
@@ -22,8 +21,12 @@ const Menu = () => {
     }, [])
      console.log(todos);
     return (<>
-        <Header/>
+    <Row>
+    <Col sm={12}><Card.Title style={{fontSize:'50px', textAlign:'center',paddingBottom:'50px'}}>Nuestro Menú</Card.Title></Col>
+           
+    </Row>
         <Row xs={1} md={4} className="g-4">
+        
             {todos.map(todo => (
                 <Col>
                     <Card>
