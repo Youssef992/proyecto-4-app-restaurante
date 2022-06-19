@@ -18,7 +18,7 @@ const Home = () => {
                                 src={Carrousel1}
                                 width="700"
                                 height="571"
-
+                                alt="Img 1"
                             />
 
                         </Carousel.Item>
@@ -28,6 +28,7 @@ const Home = () => {
                                 src={Carrousel2}
                                 width="700"
                                 height="571"
+                                alt="Img 2"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -36,6 +37,7 @@ const Home = () => {
                                 src={Carrousel3}
                                 width="700"
                                 height="571"
+                                alt="Img 3"
                             />
 
                         </Carousel.Item>
@@ -45,6 +47,7 @@ const Home = () => {
                                 src={Carrousel4}
                                 width="700"
                                 height="571"
+                                alt="Img 4"
                             />
 
                         </Carousel.Item>
