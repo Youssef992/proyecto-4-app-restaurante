@@ -2,7 +2,7 @@ import React from "react";
 import {  Card, Row, Col } from 'react-bootstrap';
 import { useState } from "react";
 import { db } from "../../firebase.js";
-import { onSnapshot, query, collection, orderBy, addDoc, doc, deleteDoc, setDoc } from "firebase/firestore";
+import { onSnapshot, collection } from "firebase/firestore";
 import { useEffect } from "react";
 import Header from "../Header/Header";
 const Menu = () => {
