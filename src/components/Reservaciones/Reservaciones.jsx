@@ -28,19 +28,17 @@ const Reservaciones = () => {
     return (<>
         <Row style={{ margin: '100px' }}>
             <Col sm={12}><Card.Title style={{ fontSize: '50px', textAlign: 'center', paddingBottom: '50px' }}>Reservaciones</Card.Title></Col>
-            <Col sm={3}>
-                <Card.Img variant="top" src={book2} />
-
-            </Col>
             <Col sm={12}>
                 <Alert show={show} variant="success">
                     <Alert.Heading>Registro Exitoso</Alert.Heading>
                     <p>Se hizo su reservación exitosamente. Esperamos pronto atenderlo.
                     </p>
                 </Alert>
-
-       
             </Col>
+            <Col sm={3}>
+                    <Card.Img variant="top" src={book2} />
+
+                </Col>
             <Col sm={5}>
 
                 <Form>
